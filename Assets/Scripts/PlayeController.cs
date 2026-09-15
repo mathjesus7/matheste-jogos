@@ -166,6 +166,6 @@ public class PlatformController : MonoBehaviour
     }
     public void ChangeTextCoin(){
         coinCounter+=1;
-        coinText.text = coinCounter.ToString() + "Coins";
+        coinText.text = coinCounter.ToString() + " Coins";
     }
 }
