@@ -126,7 +126,7 @@ public class PlatformController : MonoBehaviour
             rb.linearVelocity.y
         );
 
-        anim.SetBool("IsWalking", rb.linearVelocity.magnitude > 0.2f);
+        anim.SetBool("IsWalking", rb.linearVelocity.magnitude > 0.5f);
 
         if (rb.linearVelocity.x > 0.1f)
         {
