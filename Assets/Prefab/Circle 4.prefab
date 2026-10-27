@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 244274230395993400}
   - component: {fileID: 5738754226714363930}
   - component: {fileID: 9068614885930594958}
+  - component: {fileID: 1585592897916401645}
   m_Layer: 0
   m_Name: Circle 4
   m_TagString: Untagged
@@ -28,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 1727309443636953427}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.77, y: 0.4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.3968, y: 5.6696, z: 0}
+  m_LocalScale: {x: 7.95584, y: 9.4442835, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: -4747262616744601066, guid: 25ed0f81853cd4243a67a29b3c097471, type: 3}
   m_Color: {r: 1, g: 1, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,8 +129,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Offset: {x: 0, y: 0.0016304106}
+  m_Radius: 0.11031927
 --- !u!114 &9068614885930594958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,3 +143,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd93cf2831bbc5c49addc9f71b8873c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinController
+--- !u!95 &1585592897916401645
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1727309443636953427}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 170c8c7c31d1686469de2118388352c1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
